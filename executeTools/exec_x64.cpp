@@ -14,7 +14,7 @@ HINSTANCE executeShell(LPCSTR lpOperation, LPCSTR lpFile, LPCSTR lpParameters, I
 	);
 }
 
-int main(uint16_t argc, char* argv[])
+int main(uint8_t argc, char* argv[])
 {
 	ShowWindow(GetConsoleWindow(), SW_HIDE);
 
